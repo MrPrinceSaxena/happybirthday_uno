@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNO Birthday Surprise 💖</title>
+  <link rel="stylesheet" href="uno.css" />
+</head>
+<body>
+
+  <!-- Birthday Message -->
+  <div class="birthday-glow">🎉 Happy Birthday Wishes From Siddharth 🎉</div>
+
+  <!-- Cake and Music Cards Row -->
+  <div class="row-container">
+    <!-- Cake -->
+    <div class="cake-container">
+      <div class="cake">
+        <div class="plate"></div>
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Music Card -->
+    <div class="music-card">
+      <div class="music-info">
+        <div class="music-title">Love Song</div>
+        <div class="music-artist">For You 💖</div>
+      </div>
+      <div class="waveform">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- UNO Cards Section -->
+  <div class="card-row" id="unoCards"></div>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="audio/love-song.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="uno.js"></script>
+</body>
+</html>
