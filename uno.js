@@ -27,13 +27,13 @@ window.addEventListener('DOMContentLoaded', () => {
   const compliments = [
     "You light up every room 💡",
     "Your smile is my favorite view 😍",
-    "You're my wild card 🃏",
-    "You make my heart skip a beat ❤️",
+    "You’re effortlessly amazing 🃏",
+    "You glow differently ❤️",
     "You're magic in human form ✨",
     "Beautiful inside & out 💖",
-    "You're my best decision ever 💍",
+    "Your vibe is unmatched 🌟",
     "You turn ordinary into extraordinary 🌟",
-    "My day starts with you in my heart ☀️",
+    "Confidence looks good on you ☀️",
     "Forever grateful for you 🙏"
   ];
 
